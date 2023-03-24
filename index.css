@@ -10,7 +10,7 @@ html{
 }
 /* NAV BAR */
 .nav {
-  isplay: flex;
+  display: flex;
   justify-content: flex-end;
   position: fixed;
   width: 90%;
