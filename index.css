@@ -84,6 +84,10 @@ html{
 
 /* TEAM SECTION */
 .team{
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  padding: 0px 30px 100px 30px;
 }
 .team-member{
   display: flex;
@@ -95,8 +99,8 @@ html{
   color: var(--main-white);
   text-shadow: 3px 3px 2px black;
 }
-  
-  
+.team-member-pic{
+}
   
   
   
