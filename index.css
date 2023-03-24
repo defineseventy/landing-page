@@ -1,1 +1,62 @@
+:root{
+  --main-white: #ededed;
+  --main-blue: #6699ff;
+  --main-gray: #b0b0b0;
+  --main-black: #0f0f0f;
+}
+html{
+  max-height: 100vh;
+  background: var(--main-white);
+}
+/* NAV BAR */
+.nav {
+  isplay: flex;
+  justify-content: flex-end;
+  position: fixed;
+  width: 90%;
+  background: var(--main-blue);
+  box-shadow: 0 1px 0 rbga(0, 0, 0, 0.1);
+  z-index: 0;
+}
+/* FOR TERRA */
+#terraglotte {
+  display: none;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  pointer-events: auto;
+}
+.2ndanniversary{
+  position: relative;
+  color: var(--main-white);
+  background: var(--main-black);
+  top: 4em;
+  width: 10em;
+  opacity: 0;
+  text-align: center;
+  pointer-events: none;
+}
+#terraglotte.hover > .2ndanniversary{
+  transition: 30s, linear;
+  top: 15em;
+  font-size: 20px;
+  animation: appear 4s 2s forwards;
+}
+#terra{
+  position: absolute;
+  width: 100%;
+  font-family: Verdana, Copperplate;
+  top: none;
+  font-size: 15px;
+  margin: 0 4em 0 4m;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+}
+#terraglotte.hover > #terra{
+  opacity: 2;
+  animation: 4s;
+  background: var(--main_grey);
+}
+
 
