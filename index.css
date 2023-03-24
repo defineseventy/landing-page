@@ -59,10 +59,14 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--main-white);
+  background-color: var(--main-gray);
+}
+.media{
+  background-color: var(--main-gray);
 }
 .textbox{
   display: flex;
+  background-color: burlywood;
   flex-direction: column;
   align-items: auto;
   flex: 1 1 auto;
@@ -78,8 +82,23 @@ html{
   background-color: var(--main-gray);
 }
 
-/* PORTFOLIO SECTION */
-
+/* TEAM SECTION */
+.team{
+}
+.team-member{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 300px;
+  gap: 6px;
+  padding: 20px;
+  color: var(--main-white);
+  text-shadow: 3px 3px 2px black;
+}
+  
+  
+  
+  
   
 /* FOR TERRA */
 #terraglotte {
