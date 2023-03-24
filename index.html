@@ -84,6 +84,22 @@
         <div class = "portfolio-txt">A budget app made using Python 3 language.</div>
       </div>
     </section>
+    <section id = "contact" class = "contact">
+      <div class = "contact-container">
+       <div class = "contact-row-info">
+         <img class = "contact-icon" src = "">
+         <p>Github: <a href = "https://github.com/defineseventy" target = "_blank">@DefineSeventy</a></p>
+        </div>
+        <div class = "contact-row-info">
+          <img class = "contact-icon" src = "">
+          <p>Gmail: <a href = "mailto:jacweizhen6679@gmail.com" target = "_blank">@InfinityKitsune</a></p>
+        </div>
+        <div class = "contact-info-row">
+          <img class = "contact-icon" src = "">
+          <p>Instagram: <a href = "https://www.instagram.com/jacqueskennedy/" target = "_blank">@JacquesKennedy</a></p>
+        </div>
+      </div>
+    </section>
     <div id = "terraglotte">
       <h1 id = "terra">Terraglotte</h1>
       <a id = "randomstuff" href = "https://www.youtube.com/watch?v=hzKZLLlGJ4M" target = "_blank">
@@ -95,22 +111,22 @@
       <div class = "2ndanniversary">(THIS TOOK ME WAY TOO LONG TO DO)</div>
     </div>
   <script>
-    var terra = document.getElementById("terraglotte"),
-      music = document.getElementById("yorunikakeru&katamoi"),
-      terra_audio = document.querySelectorAll('audio');
+    var terra = document.getElementById('terraglotte'),
+        music = document.getElementById('yorunikakeru&katamoi'),
+        terra_audio = document.querySelectorAll('audio');
     console.log(terra_audio);
-    terra.addEventListener('mouseenter', function(){
-      [].forEach.call(terra_audio, function(audio)){
-                      music.play();
-    });
-  }, false);
+    terra.addEventListener('mouseeneter', function(){
+      [].forEach.call(terra_audio, function(audio){
+        music.play();
+      });
+    }, false);
     terra.addEventListener('mouseout', function(){
       music.pause();
       music.currentTime() = 0;
     }, false);
-  function myFunction() {
-    document.getElementById("2ndanniversary").style.display = "block";
-  };
+    function my Function(){
+      document.getElementById("2ndanniversary").style.display = "block";
+    };
   </script>
   </body>
 </html>
