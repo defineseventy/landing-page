@@ -4,6 +4,9 @@
   --main-gray: #b0b0b0;
   --main-black: #0f0f0f;
 }
+*, *::before, *::after{
+  box-sizing: inherit;
+}
 html{
   max-height: 100vh;
   background: var(--main-white);
@@ -11,13 +14,73 @@ html{
 /* NAV BAR */
 .nav {
   display: flex;
-  justify-content: flex-end;
   position: fixed;
   width: 90%;
   background: var(--main-blue);
   box-shadow: 0 1px 0 rbga(0, 0, 0, 0.1);
   z-index: 0;
 }
+.nav-bar {
+  display: flex;
+  position: fixed;
+  width: 90%;
+  background: var(--main-blue);
+  box-shadow: 0 1px 0 rbga(0, 0, 0, 0.1);
+}
+.logo-image{
+  height: 36 px;
+  margin-left: 24px;
+  border: 4px solid var(--main-blue);
+  border-radius: 50%;
+  box-shadow: 1px 1px;
+  transition: all 2.0s;
+}
+.nav-link {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  list-style: none;
+  font-family: Verdana;
+  margin: 0 auto 0 10px;
+}
+.nav-link a {
+  display: block;
+  font-size: 15px;
+  padding: 10px;
+}
+.nav-link a:hover{
+  background-color: var(--main-blue);
+  cursor: pointer;
+  color: var(--main-gray);
+  text-shadow: 3px 3px 2px var(--main-black);
+}
+/* WELCOME SECTION */
+.welcome-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--main-white);
+}
+.textbox{
+  display: flex;
+  flex-direction: column;
+  align-items: auto;
+  flex: 1 1 auto;
+  gap: 10px;
+  padding-left: 22px;
+}
+.random{
+  display:inline-block;
+  padding: 3rem;
+  border-radius: 2.2px;
+}
+.random:hover{
+  background-color: var(--main-gray);
+}
+
+/* PORTFOLIO SECTION */
+
+  
 /* FOR TERRA */
 #terraglotte {
   display: none;
@@ -36,7 +99,7 @@ html{
   text-align: center;
   pointer-events: none;
 }
-#terraglotte.hover > .2ndanniversary{
+#terraglotte:hover > .2ndanniversary{
   transition: 30s, linear;
   top: 15em;
   font-size: 20px;
@@ -53,10 +116,16 @@ html{
   opacity: 0;
   pointer-events: none;
 }
-#terraglotte.hover > #terra{
+#terraglotte:hover > #terra{
   opacity: 2;
   animation: 4s;
-  background: var(--main_grey);
+  background: var(--main_gray);
 }
-
+/* FOOTER */
+.footer p {
+  text-align: center;
+  color: var(--main-black);
+  padding: auto;
+  background-color: var(--main-blue);
+}
 
