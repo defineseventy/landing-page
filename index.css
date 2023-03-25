@@ -4,6 +4,12 @@
   --main-gray: #b0b0b0;
   --main-black: #0f0f0f;
 }
+
+* {
+  margin:0;
+  padding:0;
+}
+
 *, *::before, *::after{
   box-sizing: inherit;
 }
@@ -100,6 +106,7 @@ html{
   text-shadow: 3px 3px 2px black;
 }
 .team-member-pic{
+  
 }
   
   
@@ -142,7 +149,7 @@ html{
 #terraglotte:hover > #terra{
   opacity: 2;
   animation: 4s;
-  background: var(--main_gray);
+  background: var(--main-gray);
 }
 /* FOOTER */
 .footer p {
