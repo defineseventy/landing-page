@@ -55,7 +55,7 @@ html{
   padding: 10px;
 }
 .nav-link a:hover{
-  background-color: var(--main-blue);
+  background: var(--main-blue);
   cursor: pointer;
   color: var(--main-gray);
   text-shadow: 3px 3px 2px var(--main-black);
@@ -65,14 +65,14 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: var(--main-gray);
+  background: var(--main-gray);
 }
 .media{
-  background-color: var(--main-gray);
+  background: var(--main-gray);
 }
 .textbox{
   display: flex;
-  background-color: burlywood;
+  background: burlywood;
   flex-direction: column;
   align-items: auto;
   flex: 1 1 auto;
@@ -85,7 +85,7 @@ html{
   border-radius: 2.2px;
 }
 .random:hover{
-  background-color: var(--main-gray);
+  background: var(--main-gray);
 }
 
 /* TEAM SECTION */
@@ -156,6 +156,6 @@ html{
   text-align: center;
   color: var(--main-black);
   padding: auto;
-  background-color: var(--main-blue);
+  background: var(--main-blue);
 }
 
