@@ -7,20 +7,20 @@
     <link href = "index.css" rel = "stylesheets">
   </head>
   <body>
-    <div id = "page-wrap">
-      <nav id  = "nav-bar">
-        <div class = "logo">
-          <img id = "logo-image" src = "th.jfif" alt = "Infinity Kitsune">
-        </div>
-          <ul class = "nav-link">
-            <li><a href = "#portfolio">Portfolio</li>
-            <li><a href="#team">Team</li>
-            <li><a href = "#about-me">About</a></li>
-            <li><a href = "#contact-me">Contact me </a></li>
-            <li><a href = "#terraglotte">For Terra</a></li>
-          </ul>
-        </nav>
-    </div>
+    <!--- NAV BAR --->
+     <nav id  = "nav-bar">
+       <div class = "logo">
+         <img id = "logo-image" src = "th.jfif" alt = "Infinity Kitsune">
+       </div>
+         <ul class = "nav-link">
+           <li><a href = "#portfolio">Portfolio</li>
+           <li><a href="#team">Team</li>
+           <li><a href = "#about-me">About</a></li>
+           <li><a href = "#contact-me">Contact me </a></li>
+           <li><a href = "#terraglotte">For Terra</a></li>
+         </ul>
+    </nav>
+    <!--- WELCOME SECTION --->
     <div id = "welcome-section" class = "welcome-section">
       <div id = "title" class = "title">
         <div class = "media">
@@ -33,22 +33,23 @@
         </div>
       </div>
     </div>
+    
     <div id = "team" class = "team">
       <h1 class="coffee">Have a cup of coffee while you wait :)</h1>
       <div class = "team-member">
-        <img id = "team-memeber-pic" src = "th.jpg">
+        <img id = "team-member-pic" src = "th.jpg">
         <h2>Infinity Kitsune</h2>
       </div>
       <div class = "team-member">
-        <img id = "team-memeber-pic" src = "Screenshot 2023-03-24 153656.png">
+        <img id = "team-member-pic" src = "Screenshot 2023-03-24 153656.png">
         <h2>Hashnode Blogger</h2>
       </div>
       <div class = "team-member">
-        <img id = "team-memeber-pic" src = "th.jfif">
+        <img id = "team-member-pic" src = "th.jfif">
         <h2>Programmer</h2>
       </div>
       <div class = "team-member">
-        <img id = "team-memeber-pic" src = "pexels-pixabay-158340.jpg">
+        <img id = "team-member-pic" src = "pexels-pixabay-158340.jpg">
         <h2>Random employee</h2>
       </div>
     </div>
@@ -83,6 +84,7 @@
         <div class = "portfolio-txt">A budget app made using Python 3 language.</div>
       </div>
     </div>
+    <!--- CONTACT ME --->
     <div id = "contact-me" class = "contact-me">
       <div class = "contact-container">
        <div class = "contact-row-info">
@@ -99,6 +101,7 @@
         </div>
       </div>
     </div>
+    <!--- FOR TERRA --->
     <div id = "terraglotte">
       <h1 id = "terra">Terraglotte</h1>
       <a id = "randomstuff" href = "https://www.youtube.com/watch?v=hzKZLLlGJ4M" target = "_blank">
@@ -114,7 +117,7 @@
           music = document.getElementById('yorunikakeru&katamoi'),
           terra_audio = document.querySelectorAll('audio');
       console.log(terra_audio);
-      terra.addEventListener('mouseeneter', function(){
+      terra.addEventListener('mouseover', function(){
         [].forEach.call(terra_audio, function(audio){
           music.play();
         });
@@ -126,7 +129,8 @@
       function my Function(){
         document.getElementById("2ndanniversary").style.display = "block";
       };
-   </script>
+  </script>
+  <!--- footer --->
   <footer>
     <p>Created by @<a href = "https://defineseventy.github.io/landing-page/" target = "_blank">Jacqueline Lim</a>
       <br>
