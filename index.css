@@ -22,7 +22,7 @@ html{
   display: flex;
   position: fixed;
   width: 90%;
-  background: var(--main-blue);
+  background-color: var(--main-blue);
   box-shadow: 0 1px 0 rbga(0, 0, 0, 0.1);
   z-index: 0;
 }
@@ -30,7 +30,7 @@ html{
   display: flex;
   position: fixed;
   width: 90%;
-  background: var(--main-blue);
+  background-color: var(--main-blue);
   box-shadow: 0 1px 0 rbga(0, 0, 0, 0.1);
 }
 .logo-image{
@@ -55,7 +55,7 @@ html{
   padding: 10px;
 }
 .nav-link a:hover{
-  background: var(--main-blue);
+  background-color: var(--main-blue);
   cursor: pointer;
   color: var(--main-gray);
   text-shadow: 3px 3px 2px var(--main-black);
@@ -65,14 +65,14 @@ html{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--main-gray);
+  background-color: var(--main-gray);
 }
 .media{
-  background: var(--main-gray);
+  background-color: var(--main-gray);
 }
 .textbox{
   display: flex;
-  background: burlywood;
+  background-color: burlywood;
   flex-direction: column;
   align-items: auto;
   flex: 1 1 auto;
@@ -85,7 +85,7 @@ html{
   border-radius: 2.2px;
 }
 .random:hover{
-  background: var(--main-gray);
+  background-color: var(--main-gray);
 }
 
 /* TEAM SECTION */
@@ -94,6 +94,7 @@ html{
   justify-content: center;
   flex-flow: row wrap;
   padding: 0px 30px 100px 30px;
+  background-color: var(--main-gray);
 }
 .team-member{
   display: flex;
@@ -122,7 +123,7 @@ html{
 .2ndanniversary{
   position: relative;
   color: var(--main-white);
-  background: var(--main-black);
+  background-color: var(--main-black);
   top: 4em;
   width: 10em;
   opacity: 0;
@@ -149,13 +150,13 @@ html{
 #terraglotte:hover > #terra{
   opacity: 2;
   animation: 4s;
-  background: var(--main-gray);
+  background-color: var(--main-gray);
 }
 /* FOOTER */
 .footer p {
   text-align: center;
   color: var(--main-black);
   padding: auto;
-  background: var(--main-blue);
+  background-color: var(--main-blue);
 }
 
