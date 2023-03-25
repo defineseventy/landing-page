@@ -6,9 +6,9 @@
     <title>Infinity Kitsune | Mini programmer</title>
     <link href = "index.css" rel = "stylesheets">
   </head>
-  <body>
+  <body onclick="myFunction()">
     <!--- NAV BAR --->
-     <nav id  = "nav-bar">
+    <nav id  = "nav-bar">
        <div class = "logo">
          <img id = "logo-image" src = "th.jfif" alt = "Infinity Kitsune">
        </div>
@@ -33,7 +33,7 @@
         </div>
       </div>
     </div>
-    
+    <!--- TEAM SECTION --->
     <div id = "team" class = "team">
       <h1 class="coffee">Have a cup of coffee while you wait :)</h1>
       <div class = "team-member">
@@ -53,8 +53,9 @@
         <h2>Random employee</h2>
       </div>
     </div>
+    <!--- portfolio section --->
     <div id = "portfolio" class = "portfolio">
-      <h2>All my projects that I have finished :)</h2>
+      <h2 class = "title">All my projects that I have finished :)</h2>
       <div class = "portfolio-tile">
         <a href = "https://codepen.io/JacquelineLim27/pen/wvqarvY" target = "_blank" class = "project-tile">
           <img class = "portfolio-icon" src = "" alt = "My personal Portfolio">
@@ -126,7 +127,7 @@
         music.pause();
         music.currentTime() = 0;
       }, false);
-      function my Function(){
+      function myFunction(){
         document.getElementById("2ndanniversary").style.display = "block";
       };
   </script>
