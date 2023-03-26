@@ -151,7 +151,9 @@ img{
 .portfolio{
   text-align: center;
   justify-content: center;
-  padding: 10px;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px 24px 96px 24px;
   background-color: #997950;
 }
 
@@ -220,8 +222,8 @@ img{
 #terraglotte{
   display: none;
   position: absolute;
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
   pointer-events: auto;
 }
 .terrapfp{
@@ -244,7 +246,7 @@ img{
   font-size: 20px;
   animation: appear 4s 2s forwards;
 }
-#terra{
+#terraname{
   position: absolute;
   width: 100%;
   font-family: Verdana, Copperplate;
@@ -255,10 +257,15 @@ img{
   opacity: 0;
   pointer-events: none;
 }
-#terraglotte:hover > #terra{
+#terraglotte:hover > #terraname{
   opacity: 2;
   animation: 4s;
   background-color: slate;
+}
+
+@keyframes appear {
+    from {opacity: 0} to {opacity: 1};
+
 }
 /* footer */
 .footer p{
