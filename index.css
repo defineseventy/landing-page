@@ -230,7 +230,7 @@ img{
   position: relative;
   color: pearl;
   background-color: black;
-  topL 4rem;
+  top: 4rem;
   width: 10rem;
   opacity: 0;
   text-align: center;
