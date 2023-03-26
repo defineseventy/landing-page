@@ -148,7 +148,7 @@ img{
 /* PORTFOLIO SECTION */
 .portfolio{
   text-align: center;
-  kustify-content: center;
+  justify-content: center;
   padding: 10px;
   background-color: #997950;
 }
@@ -226,7 +226,7 @@ img{
   width: 20px;
   height: 20px;
 }
-.2ndanniversary{
+.secondndanniversary{
   position: relative;
   color: pearl;
   background-color: black;
@@ -236,7 +236,7 @@ img{
   text-align: center;
   pointer-events: none;
 }
-#terraglotte:hover > .2ndanniversary{
+#terraglotte:hover > .secondndanniversary{
   transition: 30s, linear;
   top: 15em;
   font-size: 20px;
