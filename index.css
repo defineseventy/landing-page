@@ -229,13 +229,12 @@ img{
 .2ndanniversary{
   position: relative;
   color: pearl;
-  background-color: slate;
-  top: 4em;
-  width: 10em;
+  background-color: black;
+  topL 4rem;
+  width: 10rem;
   opacity: 0;
   text-align: center;
   pointer-events: none;
-  
 }
 #terraglotte:hover > .2ndanniversary{
   transition: 30s, linear;
