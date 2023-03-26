@@ -143,6 +143,8 @@ img{
   font-style: typeface;
   background-color: #4b3a26;
   font-size: 30px;
+  height: 50px;
+  wodth: 100%;
 }
 
 /* PORTFOLIO SECTION */
@@ -223,8 +225,8 @@ img{
   pointer-events: auto;
 }
 .terrapfp{
-  width: 20px;
-  height: 20px;
+  width: 30px;
+  height: 30px;
 }
 .secondndanniversary{
   position: relative;
