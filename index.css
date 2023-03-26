@@ -18,7 +18,7 @@
 html{
   scrolling: smooth;
   max-height: 100vh;
-  background: var(--main-white);
+  background-color: var(--main-white);
 }
 body {
   font-family: Tacoma, Times New Roman;
@@ -54,7 +54,7 @@ img{
   display: flex;
   position: fixed;
   width: auto;
-  background: var(--main-blue);
+  background-color: var(--main-blue);
   box-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
   z-index: 0;
 }
@@ -66,7 +66,7 @@ img{
   display: flex;
   align-items: center;
   text-align: center;
-  font-faily: Verdana;
+  font-family: Verdana;
 }
 .nav-link a {
   display: block;
@@ -74,7 +74,7 @@ img{
   padding: 10px;
 }
 .nav-link a:hover{
-  background: var(--main-blue);
+  background-color: var(--main-blue);
   cursor: pointer;
   color:var(--main-gray);
 }
@@ -83,7 +83,7 @@ img{
   display: flex;
   justify-content: center;
   align-items: center;
-  background: var(--main-gray);
+  background-color: var(--main-gray);
 }
 
 .welcome-section > p{
@@ -93,11 +93,11 @@ img{
   color: var(--main-blue);
 }
 .media{
-  background: var(--main-gray);
+  background-color: var(--main-gray);
 }
 .textbox{
   display: flex;
-  background: var(--main-brown);
+  background-color: var(--main-brown);
   flex-direction: column;
   align-items: center;
   flex: 1 1 auto;
@@ -110,6 +110,6 @@ img{
   border-radius: 2.2px;
 }
 .random:hover{
-  background: var(--main-gray);
+  background-color: var(--main-gray);
 }
 
