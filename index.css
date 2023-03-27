@@ -44,6 +44,7 @@ a{
 }
 .nav-link{
   display: flex;
+  list-style: none;
   align-items: right;
   text-align: center;
   font-family: Verdana;
@@ -54,8 +55,8 @@ a{
   width: 25px;
   height: 25px;
   border: 14px solid #BA8759;
-  border-radius: 10px;
-  box-shadow: 3px 3px 4px black;
+  border-radius: 2px;
+  box-shadow: 2px 2px 1px black;
   object-fit: contain;
 }
 .nav-link a {
@@ -137,12 +138,12 @@ a{
   text-shadow: 3px 3px 2px black;
 }
 .team-member-pic{
-  width: 200px;
-  height: 200px;
-  border: 14px solid #F5DEB3;
-  border-radius: 22px;
+  width: 150px;
+  height: 150px;
+  border: 10px solid #F5DEB3;
+  border-radius: 18px;
   box-shadow: 3px 3px 4px black;
-  object-fit: cover;
+  object-fit: contain;
 }
 
 .team-member h2 {
