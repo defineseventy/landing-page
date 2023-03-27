@@ -74,6 +74,7 @@ img{
   border-radius: 50%;
   box-shadow: 1px 1px;
   transition: all 2.0s;
+  object-fit: cover;
 }
 .nav-link a {
   display: block;
