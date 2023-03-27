@@ -80,12 +80,11 @@ img{
   max-width: 100%;
   justify-content: center;
   align-items: center;
-  background-color: #b0b0b0;
-  
+  background-color: coffee;
 }
 
 .welcome-section > p{
-  font-size: 4.3rem;
+  font-size: 20px;
   font-weight: 120;
   font-style: sans-serif;
   color: #6699ff;
@@ -124,7 +123,7 @@ img{
 .team{
   display: flex;
   flex-flow: row wrap;
-  background-color: cream;
+  background-color: olive;
   padding: 0px 24px 96px 24px;
 }
 .team-member{
@@ -165,7 +164,7 @@ img{
 }
 
 .quote p{
-  text-align: end;
+  text-align: center;
   font-style: typeface;
   font-weight: 400;
   color: pearl;
@@ -213,7 +212,7 @@ img{
   justify-content: column;
   text-align: center;
   width: 100%;
-  background-color: tortilla;
+  background-color: artichoke;
   font-weight: 500;
 }
 .contact-container{
