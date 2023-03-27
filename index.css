@@ -10,7 +10,7 @@
 /* styles */
 html{
   scroll-behavior: smooth;
-  max-height: 100vh;
+  max-height: 150vh;
   background: sage;
 }
 body {
