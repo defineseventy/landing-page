@@ -96,6 +96,7 @@ img{
   justify-content: center;
   align-items: center;
   background-color: coffee;
+  background-size: cover;
 }
 
 .welcome-section > p{
