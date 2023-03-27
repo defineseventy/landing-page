@@ -137,7 +137,7 @@ a{
   color: #ededed;
   text-shadow: 3px 3px 2px black;
 }
-.team-member-pic{
+#team-member-pic{
   width: 150px;
   height: 150px;
   border: 10px solid #F5DEB3;
