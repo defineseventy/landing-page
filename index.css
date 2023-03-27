@@ -25,12 +25,6 @@ h1, h2{
   font-weight: 400;
   text-align: center;
 }
-h1{
-  font-size: 4.3rem;
-}
-h2{
-  font-size: 3.4rem;
-}
 .title {
   color: pearl;
   text-shadow: 2px 2px black;
@@ -40,15 +34,8 @@ h2{
   border-top: 1px black solid;
 }
 
-ul{
-  list-style: none;
-}
 a{
   color: #0f0f0f;
-}
-img{
-  display: circle;
-  width: 80%;
 }
 
 /* NAV */
