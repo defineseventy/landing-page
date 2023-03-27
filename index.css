@@ -11,10 +11,10 @@
 html{
   scroll-behavior: smooth;
   max-height: 100vh;
-  background: #ededed;
+  background: sage;
 }
 body {
-  font-family: Tacoma, Times New Roman;
+  font-family: Tahoma, Times New Roman;
   font-size: 1.7rem;
   font-weight: 600;
   line-height: 1.1;
@@ -81,6 +81,7 @@ img{
   justify-content: center;
   align-items: center;
   background-color: #b0b0b0;
+  
 }
 
 .welcome-section > p{
@@ -90,13 +91,22 @@ img{
   color: #6699ff;
 }
 .media{
-  background-color: #b0b0b0;
+  background-color: coffee;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 128px 72px 72px;
+  gap: 24px;
+  padding: 32px;
+  border: 3px solid brown;
+  border-radius: 200px;
+  box-shadow: 2px 2px 20px 2px;
 }
 .textbox{
   display: flex;
-  background-color: cedar;
+  background-color: saddle;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   flex: 1 1 auto;
   gap: 10px;
   padding-left: 22px;
@@ -114,13 +124,14 @@ img{
 .team{
   display: flex;
   flex-flow: row wrap;
-  background-color: #43270f;
+  background-color: cream;
+  padding: 0px 24px 96px 24px;
 }
 .team-member{
   display: grid;
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 200px;
   height: 30%;
   gap: 6px;
   padding: 10px;
@@ -137,16 +148,27 @@ img{
 
 .team-member h2 {
   font-size: 30px;
+  color: pearl;
 }
 
 /* QUOTE SECTION */
 .quote{
   display: flex;
   font-style: typeface;
-  background-color: #4b3a26;
+  background-color: oak;
   font-size: 30px;
-  height: 100px;
+  line-height: 100px;
   width: 100%;
+  flex-direction: column;
+  padding: 128px 128px 96px;
+  border-bottom: solid black 1px;
+}
+
+.quote p{
+  text-align: end;
+  font-style: typeface;
+  font-weight: 400;
+  color: pearl;
 }
 
 /* PORTFOLIO SECTION */
@@ -165,7 +187,7 @@ img{
   align-items: center;
   text-align: center;
   gap: 10px;
-  color: white;
+  color: pearl;
   padding: 14px;
   width: auto;
 }
@@ -205,8 +227,8 @@ img{
   font-size: 20px;
 }
 .contact-icon{
-  height: 34px;
-  width: 34px;
+  height: 30px;
+  width: 30px;
 }
 .contact-me a{
   color: pearl;
@@ -215,7 +237,7 @@ img{
   text-shadow: black 2px 2px;
 }
 .contact-me a:hover{
-  color: lightskyblue;
+  color: sage;
   text-direction: none;
   font-weight: 600;
   text-shadow: black 2px 2px;
