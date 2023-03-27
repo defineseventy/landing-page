@@ -1,17 +1,13 @@
-/* base reset */
-*{
-  margin: 0;
-  padding: 0;
-}
 /* box/font size */
 *, *::before, *::after{
-  box-sizing: inherit;
+  margin: 0;
+  padding: 0;
 }
 /* styles */
 html{
   scroll-behavior: smooth;
-  max-height: 150vh;
-  background: sage;
+  max-height: 100vh;
+  background: #D7A98C;
 }
 body {
   font-family: Tahoma, Times New Roman;
@@ -58,7 +54,7 @@ a{
   width: 25px;
   height: 25px;
   border: 14px solid #BA8759;
-  border-radius: 22px;
+  border-radius: 10px;
   box-shadow: 3px 3px 4px black;
   object-fit: contain;
 }
@@ -95,12 +91,12 @@ a{
   background-color: coffee;
   justify-content: center;
   align-items: center;
-  max-width: 1000px;
-  margin: 100px 70px 70px;
+  max-width: 200px;
+  margin: 30px 20px 20px;
   gap: 10px;
   padding: 24px;
   border: 3px solid brown;
-  border-radius: 20px;
+  border-radius: 10px;
   box-shadow: 2px 2px 20px 2px;
 }
 .textbox{
