@@ -1,1 +1,303 @@
+/* box/font size */
+*, *::before, *::after{
+  margin: 0;
+  padding: 0;
+}
+/* styles */
+html{
+  scroll-behavior: smooth;
+  max-height: 100vh;
+  background: #D7A98C;
+}
+body {
+  font-family: Tahoma, Times New Roman;
+  font-size: 1.7rem;
+  font-weight: 600;
+  line-height: 1.1;
+  color: #0f0f0f;
+}
+h1, h2{
+  font-family: Tahoma, Times New Roman;
+  font-weight: 400;
+  text-align: center;
+}
+.title {
+  color: pearl;
+  text-shadow: 2px 2px black;
+  text-align: center;
+  padding: 48px;
+  padding-top: 96px;
+  border-top: 1px black solid;
+}
 
+a{
+  color: #0f0f0f;
+}
+
+/* NAV */
+.nav-bar{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  position: fixed;
+  background-color: #F5DEB3;
+}
+.nav-link{
+  display: flex;
+  list-style: none;
+  align-items: right;
+  text-align: center;
+  font-family: Verdana;
+  margin-left: none;
+  margin-right: 14px;
+}
+.logo-image {
+  width: 25px;
+  height: 25px;
+  border: 14px solid #BA8759;
+  border-radius: 2px;
+  box-shadow: 2px 2px 1px black;
+  object-fit: contain;
+}
+.nav-link a {
+  display: block;
+  font-size: 15px;
+  padding: 15px;
+}
+.nav-link a:hover{
+  background-color: #6699ff;
+  cursor: pointer;
+  color: #b0b0b0;
+  text-shadow: 2px 2px 1px black;
+}
+
+/* WELCOME SECTION */
+.welcome-section{
+  display: flex;
+  max-height: 150px;
+  max-width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: coffee;
+  background-size: cover;
+}
+
+.welcome-section > p{
+  font-size: 20px;
+  font-weight: 120;
+  font-style: sans-serif;
+  color: sage;
+}
+.media{
+  background-color: coffee;
+  justify-content: center;
+  align-items: center;
+  max-width: 200px;
+  margin: 30px 20px 20px;
+  gap: 10px;
+  padding: 24px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px 2px;
+}
+.textbox{
+  display: flex;
+  background-color: almond;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 1 auto;
+  gap: 10px;
+  padding-left: 22px;
+}
+.random{
+  display: inline-block;
+  padding: 10px;
+  border-radius: 2.2px;
+  align-self: center;
+}
+.random:hover{
+  background-color: #DEAA88;
+}
+/* TEAM SECTION */
+.team{
+  display: flex;
+  flex-flow: row wrap;
+  max-height: 200px;
+  background-color: burlywood;
+  padding: 0px 24px 96px 24px;
+}
+.team-member{
+  display: grid;
+  flex-direction: column;
+  align-items: center;
+  width: 200px;
+  height: 30%;
+  gap: 6px;
+  padding: 10px;
+  color: #ededed;
+  text-shadow: 3px 3px 2px black;
+}
+.team-member-pic{
+  width: 150px;
+  height: 150px;
+  border: 10px solid #F5DEB3;
+  border-radius: 18px;
+  box-shadow: 3px 3px 4px black;
+  object-fit: contain;
+}
+
+.team-member h2 {
+  font-size: 30px;
+  color: pearl;
+}
+
+/* QUOTE SECTION */
+.quote{
+  display: flex;
+  font-style: typeface;
+  background-color: #FAD6A5;
+  font-size: 30px;
+  line-height: 100px;
+  width: 100%;
+  flex-direction: column;
+  padding: 128px 128px 96px;
+  border-bottom: solid black 1px;
+}
+
+.quote p{
+  text-align: center;
+  font-style: typeface;
+  font-weight: 400;
+  color: pearl;
+}
+
+/* PORTFOLIO SECTION */
+.portfolio{
+  text-align: center;
+  justify-content: center;
+  display: flex;
+  flex-flow: row wrap;
+  padding: 0px 24px 96px 24px;
+  background-color: #997950;
+}
+
+.portfolio-tile{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 10px;
+  color: pearl;
+  padding: 14px;
+  width: auto;
+}
+.portfolio-icon{
+  width: 250px;
+  height: 250px;
+  border: 14px solid #F5DEB3;
+  border-radius: 22px;
+  box-shadow: 3px 3px 4px black;
+  object-fit: cover;
+}
+.portfolio-txt{
+  font-family: Tahoma, Times New Roman;
+  text-align: center;
+  flex-wrap: wrap;
+  font-size: 20px;
+  font-weight: 400;
+}
+/* contact section */
+.contact-me{
+  display: flex;
+  flex-direction: column;
+  justify-content: column;
+  text-align: center;
+  width: 100%;
+  background-color: artichoke;
+  font-weight: 500;
+}
+.contact-container{
+  margin-bottom: 30px;
+}
+.contact-row-info{
+  display: flex;
+  justify-content: center;
+  gap: 14px;
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+.contact-icon{
+  height: 30px;
+  width: 30px;
+}
+.contact-me a{
+  color: pearl;
+  text-decoration: none;
+  font-weight: 600;
+  text-shadow: black 2px 2px;
+}
+.contact-me a:hover{
+  color: sage;
+  text-direction: none;
+  font-weight: 600;
+  text-shadow: black 2px 2px;
+}
+/* for Terra */
+#terraglotte{
+  display: none;
+  position: absolute;
+  width: 30px;
+  height: 30px;
+  pointer-events: auto;
+}
+.terrapfp{
+  width: 30px;
+  height: 30px;
+}
+.secondndanniversary{
+  position: relative;
+  color: pearl;
+  background-color: black;
+  top: 4rem;
+  width: 10rem;
+  opacity: 0;
+  text-align: center;
+  pointer-events: none;
+}
+.terrapfp:hover {
+  transition: 130s linear;
+  width: 190em;
+}
+#terraglotte:hover > .secondndanniversary{
+  transition: 30s, linear;
+  top: 15em;
+  font-size: 20px;
+  animation: appear 4s 2s forwards;
+}
+#terraname{
+  position: absolute;
+  width: 100%;
+  font-family: Verdana, Copperplate;
+  top: none;
+  font-size: 15px;
+  margin: 0 4em 0 4m;
+  text-align: center;
+  opacity: 0;
+  pointer-events: none;
+}
+#terraglotte:hover > #terraname{
+  opacity: 2;
+  animation: 4s;
+  background-color: slate;
+}
+
+@keyframes appear {
+    from {opacity: 0} to {opacity: 1};
+}
+/* footer */
+.footer p{
+  text-align: center;
+  color: black;
+  padding: auto;
+  background-color: lightskyblue;
+}
