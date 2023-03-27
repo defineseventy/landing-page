@@ -39,7 +39,7 @@ a{
 }
 
 /* NAV */
-#nav-bar{
+.nav-bar{
   display: flex;
   align-items: center;
   width: 100%;
