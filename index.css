@@ -29,7 +29,9 @@ h1, h2{
   padding-top: 96px;
   border-top: 1px black solid;
 }
-
+ul {
+  list-style: none;
+}
 a{
   color: #0f0f0f;
 }
@@ -93,9 +95,9 @@ a{
   justify-content: center;
   align-items: center;
   max-width: 200px;
-  margin: 30px 20px 20px;
+  margin: 20px 10px 10px;
   gap: 10px;
-  padding: 24px;
+  padding: 20px;
   border: 3px solid brown;
   border-radius: 10px;
   box-shadow: 2px 2px 20px 2px;
@@ -137,7 +139,7 @@ a{
   color: #ededed;
   text-shadow: 3px 3px 2px black;
 }
-#team-member-pic{
+.team-member-pic{
   width: 150px;
   height: 150px;
   border: 10px solid #F5DEB3;
@@ -295,9 +297,9 @@ a{
     from {opacity: 0} to {opacity: 1};
 }
 /* footer */
-.footer p{
+.footer{
   text-align: center;
   color: black;
   padding: auto;
-  background-color: lightskyblue;
+  background-color: #E2DAC6;
 }
