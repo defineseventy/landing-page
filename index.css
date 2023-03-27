@@ -60,7 +60,7 @@ a{
   border: 14px solid #BA8759;
   border-radius: 22px;
   box-shadow: 3px 3px 4px black;
-  object-fit: cover;
+  object-fit: contain;
 }
 .nav-link a {
   display: block;
