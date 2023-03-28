@@ -63,7 +63,7 @@ a{
 .nav-link a {
   display: block;
   font-size: 15px;
-  padding: auto;
+  padding: 0px 10px 0px 10px;
   text-decoration: none;
 }
 .nav-link a:hover{
