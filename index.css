@@ -40,7 +40,6 @@ a{
   display: flex;
   align-items: center;
   width: 100%;
-  position: fixed;
   background-color: #F5DEB3;
 }
 .nav-link{
