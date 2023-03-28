@@ -47,10 +47,12 @@ a{
   display: flex;
   list-style: none;
   align-items: right;
+  float: right;
   text-align: center;
   font-family: Verdana;
   margin-left: none;
   margin-right: 14px;
+  overflow: hidden;
 }
 .logo-image {
   width: 25px;
