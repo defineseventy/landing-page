@@ -6,7 +6,7 @@
 /* styles */
 html{
   scroll-behavior: smooth;
-  background: #D7A98C;
+  background: #E2DAC6;
 }
 body {
   font-family: Tahoma, Times New Roman;
@@ -63,7 +63,7 @@ a{
 .nav-link a {
   display: block;
   font-size: 15px;
-  padding: 15px;
+  padding: auto;
   text-decoration: none;
 }
 .nav-link a:hover{
@@ -80,7 +80,7 @@ a{
   height: 50%;
   justify-content: center;
   align-items: center;
-  background-color: coffee;
+  background-color: #6F4E37;
   background-size: cover;
 }
 
@@ -88,10 +88,10 @@ a{
   font-size: 20px;
   font-weight: 120;
   font-style: sans-serif;
-  color: sage;
+  color: #D7A98C;
 }
 .media{
-  background-color: coffee;
+  background-color: #C19A6B;
   justify-content: center;
   align-items: center;
   max-width: 1000px;
@@ -264,6 +264,7 @@ a{
   top: 4rem;
   width: 10rem;
   opacity: 0;
+  background: black;
   text-align: center;
   pointer-events: none;
 }
@@ -285,7 +286,7 @@ a{
   font-size: 8vw;
   margin: 0 4em 0 4m;
   text-align: center;
-  opacity: 0;
+  opacity: 0.5;
   pointer-events: none;
 }
 #terraglotte:hover > .terraname{
