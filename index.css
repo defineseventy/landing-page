@@ -252,23 +252,20 @@ a{
   height: 30px;
   pointer-events: auto;
 }
-.terrapfp{
+#terrapfp{
   width: 30px;
   height: 30px;
+  overflow: hidden;
+  top: 0;
 }
 .secondndanniversary{
   position: relative;
   color: pearl;
-  background-color: black;
   top: 4rem;
   width: 10rem;
   opacity: 0;
   text-align: center;
   pointer-events: none;
-}
-.terrapfp:hover {
-  transition: 130s linear;
-  width: 190em;
 }
 #terraglotte:hover > .secondndanniversary{
   transition: 30s, linear;
@@ -276,7 +273,11 @@ a{
   font-size: 20px;
   animation: appear 4s 2s forwards;
 }
-#terraname{
+#terrapfp:hover{
+  transition: 100s linear;
+  width: 150em;
+}
+.terraname{
   position: absolute;
   width: 100%;
   font-family: Verdana, Copperplate;
@@ -287,12 +288,11 @@ a{
   opacity: 0;
   pointer-events: none;
 }
-#terraglotte:hover > #terraname{
-  opacity: 2;
-  animation: 4s;
-  background-color: slate;
+#terraglotte:hover > .terraname{
+  opacity: 1;
+  transition: 2s;
+  background: black;
 }
-
 @keyframes appear {
     from {opacity: 0} to {opacity: 1};
 }
@@ -300,6 +300,7 @@ a{
 .footer{
   text-align: center;
   color: black;
+  font-size: 30px;
   padding: auto;
   background-color: #E2DAC6;
 }
