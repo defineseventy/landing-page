@@ -56,7 +56,8 @@ a{
 .logo-image {
   width: 25px;
   height: 25px;
-  border: 14px solid #BA8759;
+  margin-left: 22px;
+  border: 10px solid #BA8759;
   border-radius: 2px;
   box-shadow: 2px 2px 1px black;
   object-fit: contain;
@@ -77,7 +78,8 @@ a{
 /* WELCOME SECTION */
 .welcome-section{
   display: flex;
-  max-width: 100%;
+  width: 100%;
+  height: 50%;
   justify-content: center;
   align-items: center;
   background-color: coffee;
@@ -133,19 +135,19 @@ a{
   flex-direction: column;
   align-items: center;
   width: 200px;
-  height: 30%;
+  height: 50%;
   gap: 6px;
   padding: 10px;
   color: #ededed;
   text-shadow: 3px 3px 2px black;
 }
 .team-member-pic{
-  width: 150px;
-  height: 150px;
+  width: 130px;
+  height: 130px;
   border: 10px solid #F5DEB3;
   border-radius: 18px;
   box-shadow: 3px 3px 4px black;
-  object-fit: contain;
+  object-fit: cover;
 }
 
 .team-member h2 {
@@ -190,14 +192,14 @@ a{
   text-align: center;
   gap: 10px;
   color: pearl;
-  padding: 14px;
+  padding: 10px;
   width: auto;
 }
 .portfolio-icon{
   width: 250px;
   height: 250px;
   border: 14px solid #F5DEB3;
-  border-radius: 22px;
+  border-radius: 20px;
   box-shadow: 3px 3px 4px black;
   object-fit: cover;
 }
@@ -216,7 +218,7 @@ a{
   text-align: center;
   width: 100%;
   background-color: artichoke;
-  font-weight: 500;
+  font-weight: 400;
 }
 .contact-container{
   margin-bottom: 30px;
@@ -235,13 +237,13 @@ a{
 .contact-me a{
   color: pearl;
   text-decoration: none;
-  font-weight: 600;
+  font-weight: 500;
   text-shadow: black 2px 2px;
 }
 .contact-me a:hover{
   color: sage;
   text-direction: none;
-  font-weight: 600;
+  font-weight: 500;
   text-shadow: black 2px 2px;
 }
 /* for Terra */
@@ -268,7 +270,7 @@ a{
   pointer-events: none;
 }
 #terraglotte:hover > .secondndanniversary{
-  transition: 30s, linear;
+  transition: 130s, linear;
   top: 15em;
   font-size: 20px;
   animation: appear 4s 2s forwards;
@@ -282,7 +284,7 @@ a{
   width: 100%;
   font-family: Verdana, Copperplate;
   top: none;
-  font-size: 15px;
+  font-size: 8vw;
   margin: 0 4em 0 4m;
   text-align: center;
   opacity: 0;
@@ -290,7 +292,7 @@ a{
 }
 #terraglotte:hover > .terraname{
   opacity: 1;
-  transition: 2s;
+  transition: 4;
   background: black;
 }
 @keyframes appear {
