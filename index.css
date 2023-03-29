@@ -78,7 +78,7 @@ a{
 .welcome-section{
   display: flex;
   width: 100%;
-  height: 45%;
+  height: 40%;
   justify-content: center;
   align-items: center;
   background-color: #6F4E37;
@@ -252,8 +252,6 @@ a{
 /* email */
 .email{
   display: flex;
-  width: 100%;
-  height: 55%;
   justify-content: center;
   align-items: center;
   background-size: cover;
@@ -262,7 +260,7 @@ a{
   background-color: #C19A6B;
   justify-content: center;
   align-items: center;
-  max-width: 1000px;
+  max-width: 1100px;
   margin: 10px 5px 5px;
   gap: 10px;
   padding: 20px;
@@ -271,18 +269,19 @@ a{
   box-shadow: 2px 2px 20px 2px;
 }
 .email-header{
-  font-size: 13px;
+  font-size: 20px;
   text-align: center;
 }
 .subtext{
-  font-size: 10px;
+  font-size: 15px;
 }
 .submit{
   display: block;
+  flex-shrink: 0;
   width: 60%;
   margin: 1em auto;
   height: 4em;
-  font-size: 1.1rem;
+  font-size: 10px;
   background-color: #A17249;
   border-color: #DCB68A;
 }
@@ -304,7 +303,7 @@ a{
   position: relative;
   color: #9E3623;
   font-size: 10px;
-  opacity: 0;
+  opacity: 1;
   background: black;
   text-align: center;
   pointer-events: none;
@@ -323,7 +322,7 @@ a{
 }
 .dropdown {
   position: absolute;
-  left: -10em;
+  left: 12em;
   top: 100%;
   border: 4px dotted #E2DAC6;
   background-color: #E9E4D4;
@@ -339,6 +338,7 @@ a{
 .link {
   border: none;
   background: none;
+  left: 12em;
   color: pearl;
   cursor: pointer;
   font-size: 1.3em;
