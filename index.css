@@ -183,9 +183,9 @@ a{
   justify-content: center;
   display: flex;
   flex-flow: row wrap;
-  padding: 0px 24px 96px 24px;
+  padding: auto;
   background-color: #997950;
-  height: 70%;
+  height: 80%;
 }
 
 .portfolio-tile{
@@ -224,13 +224,13 @@ a{
   font-weight: 400;
 }
 .contact-container{
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 .contact-row-info{
   display: flex;
   justify-content: center;
   gap: 14px;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-size: 20px;
 }
 .contact-icon{
