@@ -259,6 +259,21 @@ a{
   overflow: hidden;
   top: 0;
 }
+.dropdown {
+  position: absolute;
+  left: -15em;
+  top: 100%;
+  border: 4px solid #E2DAC6;
+  background-color: #E9E4D4;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  display: none;
+  flex-direction: column;
+  width: 30em;
+  text-align: center;
+  color: pearl;
+  box-shadow: 3px 3px 4px black;
+}
 .secondndanniversary{
   position: relative;
   color: pearl;
@@ -299,10 +314,10 @@ a{
     from {opacity: 0} to {opacity: 1};
 }
 /* footer */
-.footer{
+.footer p{
   text-align: center;
   color: black;
-  font-size: 30px;
+  font-size: 20px;
   padding: auto;
   background-color: #E2DAC6;
 }
