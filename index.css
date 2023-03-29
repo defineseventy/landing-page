@@ -87,6 +87,7 @@ a{
 
 .welcome-section > p{
   font-size: 20px;
+  text-align: center;
   font-weight: 120;
   font-style: sans-serif;
   color: #D7A98C;
@@ -260,8 +261,21 @@ a{
   text-align: center;
   font-family: Verdana;
 }
+.email-container{
+  background-color: #C19A6B;
+  justify-content: center;
+  align-items: center;
+  max-width: 1000px;
+  margin: 10px 5px 5px;
+  gap: 10px;
+  padding: 20px;
+  border: 3px solid brown;
+  border-radius: 10px;
+  box-shadow: 2px 2px 20px 2px;
+}
 .email-header{
   font-size: 13px;
+  text-align: center;
 }
 .subtext{
   font-size: 10px;
