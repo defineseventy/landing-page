@@ -253,7 +253,7 @@ a{
 .email{
   display: flex;
   width: 100%;
-  height: 45%;
+  height: 55%;
   justify-content: center;
   align-items: center;
   background-size: cover;
@@ -279,9 +279,9 @@ a{
 }
 .submit{
   display: block;
-  width: 40%;
+  width: 60%;
   margin: 1em auto;
-  height: 2em;
+  height: 4em;
   font-size: 1.1rem;
   background-color: #A17249;
   border-color: #DCB68A;
@@ -300,11 +300,32 @@ a{
   overflow: hidden;
   top: 0;
 }
+.secondndanniversary{
+  position: relative;
+  color: #9E3623;
+  font-size: 10px;
+  opacity: 0;
+  background: black;
+  text-align: center;
+  pointer-events: none;
+}
+.terraname{
+  position: absolute;
+  width: 100%;
+  font-family: Copperplate;
+  top: none;
+  font-size: 15px;
+  margin: 0 4em 0 4m;
+  text-align: center;
+  opacity: 1;
+  color: #9E3623;
+  pointer-events: none;
+}
 .dropdown {
   position: absolute;
   left: -10em;
   top: 100%;
-  border: 4px solid #E2DAC6;
+  border: 4px dotted #E2DAC6;
   background-color: #E9E4D4;
   padding: 0.75rem;
   border-radius: 0.25rem;
@@ -326,29 +347,9 @@ a{
   position: relative;
 }
 .link:hover {
-  background-color: pearl;
+  background-color: #EFE0CD;
 }
-.secondndanniversary{
-  position: relative;
-  color: pearl;
-  top: 4rem;
-  width: 10rem;
-  opacity: 0;
-  background: black;
-  text-align: center;
-  pointer-events: none;
-}
-.terraname{
-  position: absolute;
-  width: 100%;
-  font-family: Verdana, Copperplate;
-  top: none;
-  font-size: 8vw;
-  margin: 0 4em 0 4m;
-  text-align: center;
-  opacity: 0.5;
-  pointer-events: none;
-}
+
 /* footer */
 .footer p{
   text-align: center;
