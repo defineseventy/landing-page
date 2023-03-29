@@ -126,7 +126,6 @@ a{
 .team{
   display: flex;
   flex-flow: row wrap;
-  height: 150px;
   background-color: burlywood;
   padding: 0px 24px 96px 24px;
 }
@@ -162,8 +161,6 @@ a{
   background-color: #FAD6A5;
   font-size: 30px;
   line-height: 70px;
-  width: 100%;
-  height: 50%
   flex-direction: column;
   padding: 128px 128px 96px;
   border-bottom: solid black 1px;
@@ -230,8 +227,8 @@ a{
   display: flex;
   justify-content: center;
   gap: 14px;
-  margin-bottom: 10px;
-  font-size: 20px;
+  margin-bottom: 5px;
+  font-size: 15px;
 }
 .contact-icon{
   height: 30px;
@@ -280,6 +277,7 @@ a{
   flex-shrink: 0;
   width: 60%;
   margin: 1em auto;
+  color: pearl;
   height: 4em;
   font-size: 10px;
   background-color: #A17249;
@@ -297,12 +295,13 @@ a{
   width: 30px;
   height: 30px;
   overflow: hidden;
+  align-items: left;
   top: 0;
 }
 .secondndanniversary{
   position: relative;
-  color: #9E3623;
-  font-size: 10px;
+  color: pearl;
+  font-size: 15px;
   opacity: 1;
   background: black;
   text-align: center;
@@ -322,7 +321,7 @@ a{
 }
 .dropdown {
   position: absolute;
-  left: 12em;
+  left: 4em;
   top: 100%;
   border: 4px dotted #E2DAC6;
   background-color: #E9E4D4;
@@ -330,7 +329,6 @@ a{
   border-radius: 0.25rem;
   display: none;
   flex-direction: column;
-  width: 30em;
   text-align: center;
   color: pearl;
   box-shadow: 3px 3px 4px black;
@@ -348,6 +346,7 @@ a{
 }
 .link:hover {
   background-color: #EFE0CD;
+  top: 0;
 }
 
 /* footer */
