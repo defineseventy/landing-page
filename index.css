@@ -119,7 +119,7 @@ a{
   align-self: center;
 }
 .random:hover{
-  background-color: #DEAA88;
+  background-color: #E9D7AB;
 }
 /* TEAM SECTION */
 .team{
@@ -245,6 +245,34 @@ a{
   font-weight: 500;
   text-shadow: black 2px 2px;
 }
+/* email */
+.email{
+  display: flex; 
+  flex-direction: column;
+  justify-content: column;
+  background: almond;
+  font-size: 15px;
+  color: pearl;
+  border-radius: 5px;
+  border: 4px solid #DCB68A;
+  text-align: center;
+  font-family: Verdana;
+}
+.email-header{
+  font-size: 13px;
+}
+.subtext{
+  font-size: 10px;
+}
+.submit{
+  display: block;
+  width: 40%;
+  margin: 1em auto;
+  height: 2em;
+  font-size: 1.1rem;
+  background-color: #A17249;
+  border-color: #DCB68A;
+}
 /* for Terra */
 #terraglotte{
   display: none;
@@ -273,6 +301,19 @@ a{
   text-align: center;
   color: pearl;
   box-shadow: 3px 3px 4px black;
+}
+.link {
+  border: none;
+  background: none;
+  color: pearl;
+  cursor: pointer;
+  font-size: 1.3em;
+  border: 4px solid;
+  border-radius: 1em;
+  position: relative;
+}
+.link:hover {
+  background: pearl;
 }
 .secondndanniversary{
   position: relative;
