@@ -138,7 +138,7 @@ a{
   height: 60%;
   gap: 6px;
   padding: 10px;
-  color: #ededed;
+  color: pearl;
   text-shadow: 3px 3px 2px black;
 }
 .team-member-pic{
@@ -163,12 +163,14 @@ a{
   font-size: 30px;
   line-height: 70px;
   width: 100%;
+  height: 50%
   flex-direction: column;
   padding: 128px 128px 96px;
   border-bottom: solid black 1px;
 }
 
 .quote p{
+  align-items: center;
   text-align: center;
   font-style: typeface;
   font-weight: 400;
@@ -183,7 +185,7 @@ a{
   flex-flow: row wrap;
   padding: 0px 24px 96px 24px;
   background-color: #997950;
-  height: 50%;
+  height: 70%;
 }
 
 .portfolio-tile{
@@ -254,7 +256,6 @@ a{
   height: 45%;
   justify-content: center;
   align-items: center;
-  background-color: #D2AD84;
   background-size: cover;
 }
 .email-container{
@@ -301,7 +302,7 @@ a{
 }
 .dropdown {
   position: absolute;
-  left: -15em;
+  left: -10em;
   top: 100%;
   border: 4px solid #E2DAC6;
   background-color: #E9E4D4;
@@ -325,7 +326,7 @@ a{
   position: relative;
 }
 .link:hover {
-  background: pearl;
+  background-color: pearl;
 }
 .secondndanniversary{
   position: relative;
@@ -337,16 +338,6 @@ a{
   text-align: center;
   pointer-events: none;
 }
-#terraglotte:hover > .secondndanniversary{
-  transition: 130s, linear;
-  top: 15em;
-  font-size: 20px;
-  animation: appear 4s 2s forwards;
-}
-#terrapfp:hover{
-  transition: 100s linear;
-  width: 150em;
-}
 .terraname{
   position: absolute;
   width: 100%;
@@ -357,14 +348,6 @@ a{
   text-align: center;
   opacity: 0.5;
   pointer-events: none;
-}
-#terraglotte:hover > .terraname{
-  opacity: 1;
-  transition: 4;
-  background: black;
-}
-@keyframes appear {
-    from {opacity: 0} to {opacity: 1};
 }
 /* footer */
 .footer p{
