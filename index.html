@@ -17,7 +17,7 @@
            <li><a href="#team">Team</li>
            <li><a href = "#quote">Quote</a></li>
            <li><a href = "#contact-me">Contact me </a></li>
-           <li><a href = "#terraglotte">For Terra</a></li>
+           <li><a href = "#email">Email me</a></li>
          </ul>
     </nav>
     <!--- WELCOME SECTION --->
@@ -33,31 +33,38 @@
         </div>
       </div>
     </div>
-     <!--- FOR TERRA 
     <div class = "terraglotte">
-      <h2 class = "terraname">Terraglotte</h2>
-      <a id = "randomstuff" href = "https://www.youtube.com/watch?v=hzKZLLlGJ4M" target = "_blank">
-        <img id = "terrapfp" src = "Screenshot 2023-03-24 202837.png">
-        <audio id = "yorunikakeru&katamoi"><source src = "https://www.youtube.com/watch?v=hzKZLLlGJ4M"></source></audio>
-      </a>
-      <div class = "secondndanniversary">Happy 2nd anniversary Terra, and Glotte fam too :) This is from Infinity Kitsune :)</div>
-      <div class = "secondndanniversary">Well....  yea I got nothing else, ehe~ Oh my favourite video is the one that the audio is from.</div>
-      <div class = "secondndanniversary">(THIS TOOK ME WAY TOO LONG TO DO)</div>
+      <button class = "link" onclick = "myFunction()">For Terra</button>
+        <h2 class = "terraname">Terraglotte</h2>
+        <a id = "randomstuff" href = "https://www.youtube.com/watch?v=hzKZLLlGJ4M" target = "_blank">
+          <img id = "terrapfp" src = "Screenshot 2023-03-24 202837.png">
+          <video id = "yorunikakeru&katamoi"><source src = "https://www.youtube.com/watch?v=hzKZLLlGJ4M"></source></video>
+        </a>
+      <div class = "dropdown">
+        <div class = "secondndanniversary">Happy 2nd anniversary Terra, and Glotte fam too :) This is from Infinity Kitsune :)</div>
+        <div class = "secondndanniversary">Well....  yea I got nothing else, ehe~ Oh my favourite video is the one that the audio is from.</div>
+        <div class = "secondndanniversary">(THIS TOOK ME WAY TOO LONG TO DO)</div>
+      </div>
     </div> 
-    --->
     <!--- TEAM SECTION --->
     <div id = "team" class = "team">
       <h1 class="coffee">Meet our team</h1>
       <div class = "team-member">
-        <img class = "team-member-pic" src = "th.jpg">
+        <a href = "https://www.youtube.com/channel/UCNkPEKVWoE-no1-zqMol_UQ" target = "_blank">
+          <img class = "team-member-pic" src = "th.jpg">
+        </a>
         <h2>Infinity Kitsune</h2>
       </div>
       <div class = "team-member">
-        <img class = "team-member-pic" src = "Screenshot 2023-03-24 153656.png">
+        <a href = "https://jacquelineliminfinity277.hashnode.dev/" target = "_blank">
+          <img class = "team-member-pic" src = "Screenshot 2023-03-24 153656.png">
+        </a>
         <h2>Hashnode Blogger</h2>
       </div>
       <div class = "team-member">
-        <img class = "team-member-pic" src = "th.jfif">
+        <a href = "https://github.com/defineseventy" target = "_blank">
+          <img class = "team-member-pic" src = "th.jfif">
+        </a>
         <h2>Programmer</h2>
       </div>
       <div class = "team-member">
@@ -117,18 +124,24 @@
           <img class = "contact-icon" src = "th (4).jfif">
           <p>Insta: <a href = "https://www.instagram.com/jacqueskennedy/" target = "_blank">@JacquesKennedy</a></p>
         </div>
-      </div>
     </div>
   <!--- EMAIL --->
   <div id = "email" class = "email">
+    <div id = "email-header" class = "email-header">
+      Looking to get in contact with our talented team members?
+    </div>
+    <div class = "subtext">
+      Feel free to drop them an email :)
+    </div>
+    <a href = "mailto:jacweizhen2706@gmail.com"><button type = "submit" value="Contact"></a>
   </div>
     <script>
        var terra =  document.getElementById('terrapfp'),
            music = document.getElementById('yorunikakeru&katamoi'),
-           terra_audio = document.querySelectorAll('audio');
+           terra_audio = document.querySelectorAll('video');
       console.log(terra_audio);
       terra.addEventListener('mouseover', function(){
-        [].forEach.call(terra_audio, function(audio){
+        [].forEach.call(terra_audio, function(video){
           music.play();
         });
       }, false);
