@@ -192,7 +192,7 @@ a{
   text-align: center;
   gap: 10px;
   color: pearl;
-  padding: 10px;
+  padding: 6px;
   width: auto;
 }
 .portfolio-icon{
@@ -277,9 +277,9 @@ a{
   flex-shrink: 0;
   width: 60%;
   margin: 1em auto;
-  color: pearl;
+  color: #eae0c8;
   height: 4em;
-  font-size: 10px;
+  font-size: 14px;
   background-color: #A17249;
   border-color: #DCB68A;
 }
@@ -291,7 +291,21 @@ a{
   height: 30px;
   pointer-events: auto;
 }
-#terrapfp{
+.dropdown {
+  position: absolute;
+  left: 4em;
+  top: 100%;
+  border: 4px dotted #E2DAC6;
+  background-color: #E9E4D4;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  color: pearl;
+  box-shadow: 3px 3px 4px black;
+}
+.terrapfp{
   width: 30px;
   height: 30px;
   overflow: hidden;
@@ -318,20 +332,6 @@ a{
   opacity: 1;
   color: #9E3623;
   pointer-events: none;
-}
-.dropdown {
-  position: absolute;
-  left: 4em;
-  top: 100%;
-  border: 4px dotted #E2DAC6;
-  background-color: #E9E4D4;
-  padding: 0.75rem;
-  border-radius: 0.25rem;
-  display: none;
-  flex-direction: column;
-  text-align: center;
-  color: pearl;
-  box-shadow: 3px 3px 4px black;
 }
 .link {
   border: none;
