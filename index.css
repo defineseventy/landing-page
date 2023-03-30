@@ -162,10 +162,16 @@ a{
   font-size: 30px;
   line-height: 70px;
   flex-direction: column;
-  padding: 128px 128px 96px;
+  padding: 96px;
   border-bottom: solid black 1px;
 }
-
+.qoute h2 {
+  align-items: center;
+  text-align: center;
+  font-style: typeface;
+  font-weight: 500;
+  color: pearl;
+}
 .quote p{
   align-items: center;
   text-align: center;
@@ -180,9 +186,8 @@ a{
   justify-content: center;
   display: flex;
   flex-flow: row wrap;
-  padding: auto;
+  padding: 128px 128px 96px;
   background-color: #997950;
-  height: 80%;
 }
 
 .portfolio-tile{
@@ -217,7 +222,7 @@ a{
   justify-content: column;
   text-align: center;
   width: 100%;
-  background-color: artichoke;
+  background-color: #C7B595;
   font-weight: 400;
 }
 .contact-container{
