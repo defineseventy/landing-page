@@ -298,7 +298,6 @@ a{
 }
 .dropdown {
   position: absolute;
-  left: 4em;
   top: 100%;
   border: 4px dotted #E2DAC6;
   background-color: #E9E4D4;
