@@ -309,7 +309,7 @@ a{
   flex-direction: column;
   text-align: center;
   color: pearl;
-  min-width: 1000px;
+  width: 40em;
   box-shadow: 3px 3px 4px black;
 }
 .terrapfp{
