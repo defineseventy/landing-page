@@ -292,8 +292,9 @@ a{
 .terraglotte{
   display: none;
   position: absolute;
+  opacity: 1;
   pointer-events: auto;
-  left: 18em;
+  left: 10em;
 }
 .dropdown {
   position: absolute;
