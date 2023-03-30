@@ -293,24 +293,20 @@ a{
   display: none;
   position: absolute;
   opacity: 1;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   pointer-events: auto;
   left: 10em;
 }
 .dropdown {
-  position: absolute;
-  left: 4em;
-  top: 100%;
-  border: 4px dotted #E2DAC6;
-  background-color: #E9E4D4;
-  padding: 0.75rem;
-  border-radius: 0.25rem;
-  display: none;
-  flex-direction: column;
-  text-align: center;
-  color: #eae0c8;
-  box-shadow: 3px 3px 4px black;
+   position: absolute;
+    top: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 0.75rem;
+    border-radius: 0.25rem;
+    display: none;
+    flex-direction: column;
+    width: 30em;
+    text-align: center;
+    color: white;
 }
 .terrapfp{
   width: 30px;
