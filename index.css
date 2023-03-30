@@ -299,7 +299,7 @@ a{
 .dropdown {
   position: absolute;
   top: 100%;
-  left: 10em;
+  left: 12em;
   border: 4px dotted #E2DAC6;
   background-color: #E9E4D4;
   padding: 0.75rem;
@@ -309,7 +309,7 @@ a{
   flex-direction: column;
   text-align: center;
   color: pearl;
-  min-width: 500px;
+  min-width: 1000px;
   box-shadow: 3px 3px 4px black;
 }
 .terrapfp{
@@ -344,7 +344,7 @@ a{
   border: none;
   color: black;
   background: none;
-  left: 12em;
+  left: 10em;
   display: inline-block;
   padding: 10px;
   border-radius: 2.2px;
