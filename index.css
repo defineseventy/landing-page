@@ -296,6 +296,14 @@ a{
   pointer-events: auto;
   left: 10em;
 }
+.dropdownitem {
+  display: none;
+  position: absolute;
+  background-color: #E9E4D4;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
 .dropdown {
   position: absolute;
   left: 4em;
