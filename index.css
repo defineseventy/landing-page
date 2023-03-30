@@ -350,6 +350,7 @@ a{
   left: 10em;
   color: black;
   cursor: pointer;
+  opacity: 1;
   font-size: 15px;
   display: inline-block;
   padding: 0px 10px 0px 10px;
