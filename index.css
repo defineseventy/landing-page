@@ -290,7 +290,6 @@ a{
 }
 /* for Terra */
 .terraglotte{
-  display: table-row;
   align-items: center;
   position: absolute;
   opacity: 1;
