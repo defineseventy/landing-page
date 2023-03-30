@@ -299,7 +299,7 @@ a{
 .dropdown {
   position: absolute;
   top: 100%;
-  left: -12em;
+  left: -14em;
   border: 4px dotted #E2DAC6;
   background-color: #E9E4D4;
   padding: 0.75rem;
@@ -335,7 +335,7 @@ a{
   top: none;
   font-size: 15px;
   margin: 0 4em 0 4m;
-  text-align: right;
+  text-align: left;
   opacity: 1;
   color: #9E3623;
   pointer-events: none;
