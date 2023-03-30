@@ -322,7 +322,7 @@ a{
 .secondndanniversary{
   position: relative;
   color: #eae0c8;
-  font-size: 15px;
+  font-size: 10px;
   opacity: 1;
   background: black;
   text-align: center;
@@ -341,15 +341,10 @@ a{
   pointer-events: none;
 }
 .link {
-  left: 10em;
-  color: black;
-  cursor: pointer;
-  opacity: 1;
-  font-size: 15px;
-  display: inline-block;
-  padding: 0px 10px 0px 10px;
-  align-self: center;
-  position: relative;
+  color: #eae0c8;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
 }
 .link:hover {
   background-color: #EFE0CD;
