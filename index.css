@@ -289,10 +289,11 @@ a{
   border-color: #DCB68A;
 }
 /* for Terra */
-#terraglotte{
+.terraglotte{
   display: none;
   position: absolute;
   pointer-events: auto;
+  left: 18em;
 }
 .dropdown {
   position: absolute;
