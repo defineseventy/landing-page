@@ -340,6 +340,7 @@ a{
 }
 .link {
   border: none;
+  color: black;
   background: none;
   left: 12em;
   display: inline-block;
