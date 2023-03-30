@@ -297,15 +297,18 @@ a{
   left: 10em;
 }
 .dropdown {
-   position: absolute;
-   top: 100%;
-   padding: 0.75rem;
-   border-radius: 0.25rem;
-   display: none;
-   flex-direction: column;
-   width: 30em;
-   text-align: center;
-   color: white;
+  position: absolute;
+  left: 4em;
+  top: 100%;
+  border: 4px dotted #E2DAC6;
+  background-color: #E9E4D4;
+  padding: 0.75rem;
+  border-radius: 0.25rem;
+  display: none;
+  flex-direction: column;
+  text-align: center;
+  color: pearl;
+  box-shadow: 3px 3px 4px black;
 }
 .terrapfp{
   width: 30px;
@@ -336,15 +339,14 @@ a{
   pointer-events: none;
 }
 .link {
-  left: 10em;
-  color: black;
-  cursor: pointer;
-  font-size: 15px;
+  border: none;
+  background: none;
+  left: 12em;
   display: inline-block;
-  padding: 0px 10px 0px 10px;
+  padding: 10px;
+  border-radius: 2.2px;
   align-self: center;
   position: relative;
-  border: none;
 }
 .link:hover {
   background-color: #EFE0CD;
