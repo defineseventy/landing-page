@@ -334,10 +334,14 @@ a{
   pointer-events: none;
 }
 .link {
-  display: block;
+  left: 6em;
+  color: pearl;
+  cursor: pointer;
   font-size: 15px;
-  padding: 0px 10px 0px 10px;
-  text-decoration: none;
+  display: inline-block;
+  padding: 10px;
+  align-self: center;
+  position: relative;
 }
 .link:hover {
   background-color: #EFE0CD;
