@@ -278,7 +278,6 @@ a{
 .contact-me{
   display: flex;
   flex-direction: column;
-  flex-flow: row wrap;
   justify-content: column;
   text-align: center;
   width: 100%;
