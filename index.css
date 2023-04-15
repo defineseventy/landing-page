@@ -223,10 +223,13 @@ a{
 
 /* Style the front side (fallback if image is missing) */
 .front{
-  background-color: #bbb;
   color: black;
 }
-
+/* style the back side (in this case it's info) */
+.info{
+  color: white;
+  transform: rotateY(180deg);
+}
 .volunteer{
   text-align: center;
   justify-content: center;
