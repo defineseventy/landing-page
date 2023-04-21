@@ -190,7 +190,6 @@ a{
   flex-direction: column;
   padding: 30px;
   border: 1px solid #f1f1f1;
-  perspective: 1000px;
 }
 .work{
   background-color: #C19A6B;
