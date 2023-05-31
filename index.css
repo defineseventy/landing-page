@@ -200,7 +200,7 @@ a{
   transform-style: preserve-3d;
   box-shadow: 2px 2px 20px 2px;
 }
-.work-exp:hover > .work{
+.work-exp:hover .work{
   transform: rotateY(180deg);
 }
 .work-exp-pic{
@@ -280,8 +280,8 @@ a{
 .portfolio-icon{
   width: 250px;
   height: 250px;
-  border: 14px solid #F5DEB3;
-  border-radius: 10px;
+  border: 10px solid #F5DEB3;
+  border-radius: 8px;
   box-shadow: 3px 3px 4px black;
   object-fit: cover;
 }
