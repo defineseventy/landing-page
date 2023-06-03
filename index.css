@@ -352,12 +352,15 @@ a{
 .submit{
   display: block;
   flex-shrink: 0;
-  width: 60%;
+  width: 50%;
   color: #eae0c8;
-  align-items: center;
-  justify-content: center;
   height: 3em;
   font-size: 15px;
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
   background-color: #A17249;
   border-color: #DCB68A;
 }
