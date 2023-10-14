@@ -161,7 +161,7 @@ a{
   padding: 96px;
   border-bottom: solid black 1px;
 }
-.qoute h2 {
+.quote h2 {
   align-items: center;
   text-align: center;
   font-style: typeface;
@@ -199,10 +199,10 @@ a{
   transform: rotateY(180deg);
 }
 .work-exp-pic{
-  width: 250px;
-  height: 250px;
-  border: 14px solid #F5DEB3;
-  border-radius: 20px;
+  width: 130px;
+  height: 130px;
+  border: 10px solid #F5DEB3;
+  border-radius: 18px;
   box-shadow: 3px 3px 4px black;
   object-fit: cover;
 }
@@ -212,16 +212,6 @@ a{
   height: 100%;
   -webkit-backface-visibility: hidden; /* Safari */
   backface-visibility: hidden;
-}
-
-/* Style the front side (fallback if image is missing) */
-.front{
-  color: black;
-}
-/* style the back side (in this case it's info) */
-.info{
-  color: white;
-  transform: rotateY(180deg);
 }
 .volunteer{
   text-align: center;
