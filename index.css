@@ -62,7 +62,7 @@ a{
   padding: 0px 10px 0px 10px;
   text-decoration: none;
 }
-.nav-link a:hover{
+.nav-link a::hover{
   background-color: oak;
   cursor: pointer;
   color: #b0b0b0;
@@ -115,7 +115,7 @@ a{
   border-radius: 2.2px;
   align-self: center;
 }
-.random:hover{
+.random::hover{
   background-color: #E9D7AB;
 }
 /* TEAM SECTION */
@@ -195,7 +195,7 @@ a{
   transform-style: preserve-3d;
   box-shadow: 2px 2px 20px 2px;
 }
-.work-exp:hover .work{
+.work-exp::hover .work{
   transform: rotateY(180deg);
 }
 .work-exp-pic{
@@ -317,7 +317,7 @@ a{
   font-weight: 500;
   text-shadow: black 2px 2px;
 }
-.contact-me a:hover{
+.contact-me a::hover{
   color: #EAE3D2;
   text-direction: none;
   font-weight: 500;
@@ -422,7 +422,7 @@ a{
   align-self: center;
   position: relative;
 }
-.link:hover {
+.link::hover {
   background-color: #EFE0CD;
   top: 0;
 }
